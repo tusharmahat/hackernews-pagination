@@ -10,6 +10,9 @@ function App() {
             <BrowserRouter>
                 <Navbar></Navbar>
                 <Switch>
+                    <Route path="/"
+                        component={Top}
+                        exact></Route>
                     <Route path="/top"
                         component={Top}
                         exact></Route>
