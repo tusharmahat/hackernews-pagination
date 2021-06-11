@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  margin: 0.5rem 5rem;
+}
+
+.navbar{
+  background: rgb(255, 123, 0);
+  padding: 0.5rem 0;
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr 1fr 1fr 1fr 6fr;
+}
+.logo{
+  color:#fff;
+  border:1px #fff solid;
+  padding: 0 3px;
+}
+
+.Pagination,.Pagination>li{
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+}
+
+.Pagination>li{
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.otherPage{
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 2px;
+  border:1px solid lightgray;
+  text-decoration: none;
+}
+
+.currentPage{
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 3px;
+  text-decoration: none;
+  border:1px solid rgb(255, 123, 0);
+}
+
+.News{
+  text-align: left;
+}
+
+.url{
+  font-size:10px;
+  color: #828282;
+}
+.newsItem{
+  margin-bottom: 0.5rem;
+  font-size:12px;
+}
+.newsItem-link:visited{
+  color: #828282;
+}
+
+.newsItem-desc{
+  /* margin-left: 1rem; */
+  color: #828282;
+  font-size: 8.5px;
+}
+
+.newsItem-link{
+  text-decoration: none;
+  color: #000;
+}
+.newsItem-grid{
+  display: grid ;
+  grid-template-columns: 0.35fr 11.65fr;
+}
