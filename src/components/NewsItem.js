@@ -34,7 +34,7 @@ export default class NewsItem extends Component {
     }
     render() {
         const {data} = this.state;
-        const timeElapsed = this.msToTime((new Date() - new Date("data.time * 1000")));
+        const timeElapsed = this.msToTime((new Date() - new Date(data.time * 1000)));
         return (
             <div className="newsItem">
                 {
