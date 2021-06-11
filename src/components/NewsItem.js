@@ -57,7 +57,7 @@ export default class NewsItem extends Component {
                             }</span>
                         </a>
                     </div>
-                    <div className="newsItem-desc newsItem-grid-item">
+                    <div className="newsItem-desc newsItem-grid">
                         <span></span>
                         <span> {
                             data.score + " "
