@@ -5,9 +5,10 @@
 
 .navbar{
   background: rgb(255, 123, 0);
-  padding: 0.5rem 0;
+  padding: 0.5rem;
   display: grid;
-  grid-template-columns: 0.5fr 1.5fr 1fr 1fr 1fr 6fr;
+  grid-template-columns: 0.2fr 1.5fr 0.5fr 0.5fr 0.5fr 8.8fr;
+  text-align: right;
 }
 .logo{
   color:#fff;
@@ -80,5 +81,5 @@ margin-top: 5px;
   padding: 5px;
 }
 .News{
-min-height: 65vh;
+min-height: 75vh;
 }
