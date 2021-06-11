@@ -28,7 +28,7 @@ export default class Top extends Component {
         const currentNews = this.state.data.slice(indexOfFirstItem, indexOfLastItem);
         return (
             <div>
-                Top {
+                Top News {
                 this.state.loading || !this.state.data ? (
                     <div>Loading...</div>
                 ) : (
