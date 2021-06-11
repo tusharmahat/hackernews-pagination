@@ -70,7 +70,7 @@
 }
 .newsItem-grid{
   display: grid ;
-  grid-template-columns: 0.35fr 11.65fr;
+  grid-template-columns: 0.25fr 11.75fr;
 }
 .container{
 background: #f6f6ef;
