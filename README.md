@@ -1,5 +1,5 @@
 # Getting Started with Hackernews App
-URL:https://cutt.ly/hackernews
+URL:https://paginationsite.herokuapp.com/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
