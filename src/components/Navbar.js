@@ -1,5 +1,5 @@
-import React, {Component} from 'react'
-import {Link} from "react-router-dom";
+import React, { Component } from 'react'
+import { Link } from "react-router-dom";
 
 export default class Navbar extends Component {
     render() {
@@ -12,10 +12,10 @@ export default class Navbar extends Component {
                 <Link to="/top">
                     Top|
                 </Link>
-                <Link to="/news">
-                    News|
+                <Link to="/Jobs">
+                    Jobs|
                 </Link>
-                <Link to="/best">
+                <Link to="/latest">
                     Latest|
                 </Link>
                 <Link to="#">Login</Link>

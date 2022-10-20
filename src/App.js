@@ -1,9 +1,10 @@
 import './App.css';
 import Navbar from "./components/Navbar";
-import {BrowserRouter, Switch, Route} from "react-router-dom";
+import React, { Component } from 'react';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Top from "./components/Top";
-import Best from "./components/Best";
-import News from "./components/News";
+import Latest from "./components/Latest";
+import Jobs from "./components/Jobs";
 function App() {
     return (
         <div className="App">
@@ -16,11 +17,11 @@ function App() {
                     <Route path="/top"
                         component={Top}
                         exact></Route>
-                    <Route path="/news"
-                        component={News}
+                    <Route path="/jobs"
+                        component={Jobs}
                         exact></Route>
-                    <Route path="/best"
-                        component={Best}
+                    <Route path="/latest"
+                        component={Latest}
                         exact></Route>
                 </Switch>
             </BrowserRouter>

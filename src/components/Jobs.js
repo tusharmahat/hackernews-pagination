@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 import axios from "axios";
 import NewsItem from "./NewsItem";
 import Pagination from "./Pagination";
-
-export default class Top extends Component {
+export default class Jobs extends Component {
     constructor() {
         super();
         this.state = {
@@ -18,7 +17,7 @@ export default class Top extends Component {
     };
     async componentDidMount() {
         this.setState({ loading: true });
-        let response = await axios.get("https://hacker-news.firebaseio.com/v0/topstories.json");
+        let response = await axios.get("https://hacker-news.firebaseio.com/v0/jobstories.json");
         this.setState({ data: response.data, loading: false })
     }
 
@@ -28,7 +27,7 @@ export default class Top extends Component {
         const currentNews = this.state.data.slice(indexOfFirstItem, indexOfLastItem);
         return (
             <div className="container">
-                Top Stories {
+                Job Stories {
                     this.state.loading || !this.state.data ? (
                         <div>Loading...</div>
                     ) : (

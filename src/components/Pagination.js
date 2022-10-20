@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 
 export default class Pagination extends Component {
     render() {
@@ -10,18 +10,18 @@ export default class Pagination extends Component {
             <div>
                 <ul className="Pagination">
                     {
-                    pageNumbers.map(i => {
-                        return <li key={i}>
-                            <span onClick={
+                        pageNumbers.map(i => {
+                            return <li key={i}>
+                                <span onClick={
                                     () => this.props.paginate(i)
                                 }
-                                className={
-                                    this.props.currentPage == i ? "currentPage" : "otherPage"
-                            }>
-                                {i} </span>
-                        </li>;
-                    })
-                } </ul>
+                                    className={
+                                        this.props.currentPage === i ? "currentPage" : "otherPage"
+                                    }>
+                                    {i} </span>
+                            </li>;
+                        })
+                    } </ul>
             </div>
 
         )
