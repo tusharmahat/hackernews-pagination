@@ -1,4 +1,4 @@
-# Getting Started with Hackernews App
+# Getting Started with Hackernews Pagination App
 URL:https://paginationsite.herokuapp.com/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
